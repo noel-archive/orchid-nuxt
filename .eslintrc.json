@@ -1,0 +1,12 @@
+{
+  "extends": ["prettier", "@augu/eslint-config"],
+  "plugins": ["prettier"],
+  "rules": {
+    "quote-props": ["error", "consistent-as-needed"],
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ]
+  }
+}

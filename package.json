@@ -1,0 +1,39 @@
+{
+  "name": "@augu/nuxt-orchid",
+  "description": "🛬📗 Adds support for @augu/orchid with Nuxt.js",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "lib/",
+    "index.d.ts"
+  ],
+  "author": "Noel <cutie@floofy.dev>",
+  "license": "MIT",
+  "repository": "https://github.com/Noelware/orchid-nuxt-module",
+  "bugs": "https://github.com/Noelware/orchid-nuxt-module/issues",
+  "scripts": {
+    "prepare": "husky install",
+    "format": "prettier --config ./.prettierrc.json --write lib/**/*.js",
+    "test": "jest --config jest.config.js -i",
+    "lint": "eslint src --ext .js --fix"
+  },
+  "dependencies": {
+    "@augu/orchid": "3.1.1"
+  },
+  "devDependencies": {
+    "@augu/eslint-config": "2.2.0",
+    "@augu/tsconfig": "1.1.1",
+    "@types/jest": "27.0.1",
+    "@typescript-eslint/eslint-plugin": "4.29.1",
+    "@typescript-eslint/parser": "4.29.1",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "husky": "^7.0.1",
+    "jest": "27.0.6",
+    "nuxt": "2.15.8",
+    "prettier": "2.3.2",
+    "typescript": "4.3.5"
+  }
+}
