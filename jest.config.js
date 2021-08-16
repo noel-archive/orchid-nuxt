@@ -24,8 +24,12 @@
  * Configuration file for running tests
  */
 module.exports = {
+  preset: '@nuxt/test-utils',
   testEnvironment: 'node',
   testMatch: ['<rootDir>/tests/*.spec.js'],
   verbose: true,
   name: 'orchid-nuxt',
+  transform: {
+    '^.+\\.js$': 'babel-jest',
+  },
 };

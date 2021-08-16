@@ -20,16 +20,9 @@
  * SOFTWARE.
  */
 
-import * as orchid from '@augu/orchid';
-
-const log = (...messages) => console.debug('[orchid]', ...messages);
-
-export default (ctx, inject) => {
-  // base url
-  const options = JSON.parse('<%= JSON.stringify(options) %>');
-  const client = new orchid.HttpClient(JSON.parse(options));
-
-  log('Injected client into context.');
-  ctx.$orchid = client;
-  inject('$orchid', client);
+module.exports = {
+  modules: ['@augu/orchid-nuxt'],
+  orchid: {
+    baseUrl: 'https://api.floofy.dev',
+  },
 };
