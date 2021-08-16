@@ -23,7 +23,7 @@
 import * as orchid from '@augu/orchid';
 import Vue from 'vue';
 
-interface NuxtOrchidInstance {
+interface NuxtOrchidInstance extends orchid.HttpClient {
   $get(url: string): orchid.Request;
   $get(url: Omit<orchid.HttpRequestOptions, 'method'>): Request;
   $get(url: string, options?: Omit<orchid.HttpRequestOptions, 'method' | 'url'>): Request;

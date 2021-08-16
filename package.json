@@ -1,7 +1,7 @@
 {
   "name": "@augu/nuxt-orchid",
   "description": "🛬📗 Adds support for @augu/orchid with Nuxt.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "index.d.ts",
   "files": [
