@@ -8,7 +8,7 @@
 
 ```js
 export default {
-  modules: ["@augu/orchid-nuxt"],
+  modules: ['@augu/orchid-nuxt'],
   options: {
     orchid: {
       middleware: [your, middleware, here],
