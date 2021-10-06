@@ -25,9 +25,9 @@
   "devDependencies": {
     "@augu/eslint-config": "2.2.0",
     "@augu/tsconfig": "1.1.1",
-    "@babel/core": "7.15.0",
-    "@babel/plugin-transform-runtime": "7.15.0",
-    "@babel/preset-env": "7.15.0",
+    "@babel/core": "7.15.8",
+    "@babel/plugin-transform-runtime": "7.15.8",
+    "@babel/preset-env": "7.15.8",
     "@nuxt/test-utils": "0.2.2",
     "@types/jest": "27.0.1",
     "@typescript-eslint/eslint-plugin": "4.29.1",
